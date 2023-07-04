@@ -16,7 +16,8 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Name:" />
+            android:text="Name:"
+            tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/editTextText2"
@@ -37,7 +38,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Password:" />
+            android:text="Password:"
+            tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/editTextText3"
@@ -58,14 +60,16 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Button"
-            app:cornerRadius="0dp"/>
+            app:cornerRadius="0dp"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Button"
-            app:cornerRadius="0dp"/>
+            app:cornerRadius="0dp"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 
 </LinearLayout>
